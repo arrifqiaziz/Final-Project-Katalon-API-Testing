@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Arrifqi - TC API Testing
+Description: Final Project for Automated Testing with Katalon Studio
+
+Target API Testing :  [https://restful-booker.herokuapp.com/|https://restful-booker.herokuapp.com/|smart-link] </description>
+   <name>AP-6 Arrifqi - TC API Testing</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10029&quot;:&quot;Feature: Test All end Point of API\nGiven I Set POST service api endpoint\nWhen I Set request HEADER\nAnd Send a POST HTTP request\nThen I receive valid Response&quot;,&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i00013:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://timbelajar3.atlassian.net/&quot;,&quot;self&quot;:&quot;https://timbelajar3.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://timbelajar3.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;AP&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;API Project&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Arrifqi - TC API Testing&quot;,&quot;description&quot;:&quot;Final Project for Automated Testing with Katalon Studio\n\nTarget API Testing :  [https://restful-booker.herokuapp.com/|https://restful-booker.herokuapp.com/|smart-link] &quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;arrifqiaziz@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Arrifqi Aziz Ardhiansyah&quot;,&quot;self&quot;:&quot;https://timbelajar3.atlassian.net/rest/api/2/user?accountId\u003d70121%3A91f159b1-305e-49ca-a911-a6ecd8c630d8&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://timbelajar3.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://timbelajar3.atlassian.net/rest/api/2/issue/AP-6/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://timbelajar3.atlassian.net/rest/api/2/issue/10007&quot;,&quot;key&quot;:&quot;AP-6&quot;,&quot;id&quot;:10007}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>b9bf2c8e-bf2b-41cf-829c-cc234dc1b368</testCaseGuid>
+</TestCaseEntity>

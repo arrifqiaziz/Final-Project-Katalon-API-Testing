@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get User by ID 12345 Not Found</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b6890d27-1cf2-416e-a865-1fd6b07a58ad</testCaseGuid>
+</TestCaseEntity>

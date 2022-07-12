@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get Resources by ID 12345 Not Found</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be969bed-3908-4c85-87eb-b1753813d05b</testCaseGuid>
+</TestCaseEntity>
