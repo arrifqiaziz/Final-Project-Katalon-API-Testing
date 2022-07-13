@@ -20,5 +20,11 @@ import groovy.json.JsonSlurper as JsonSlurper
 
 Response = WS.sendRequest(findTestObject('Get User/Get User by ID/Get User by ID 12345 Not Found'))
 
-WS.verifyResponseStatusCode(Response, 404)
+WS.getResponseStatusCode(Response)
+
+if (WS.getResponseStatusCode(Response)) {
+    WS.verifyResponseStatusCode(Response, 404)
+} else {
+    WS.verifyResponseStatusCode(Response, 200)
+}
 
