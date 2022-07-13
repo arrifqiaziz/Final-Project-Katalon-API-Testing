@@ -38,6 +38,21 @@ if (Response_Code==404) {
 ```
 Dimana, jika hasil response code adalah 404, akan masuk ke verify response 404, jika tidak akan masuk pada verify response 200
 
+### Report
+Pada pengujian, jika harus satu-satu test case di test akan memakan waktu lama, sehingga dibuat `Test Suite` agar dapat menjalankan beberapa test case secara bersamaan yaitu
+```
+TS Get Resurces
+TS Get User per Page
+TS Get User by ID
+TS Post, Put and Delete User
+TS Register and Login
+```
+Untuk lebih memudahkan pengujian dibuat `Test Suites Collection` agar dapat menjalankan beberapa Test Suites secara bersamaan yaitu
+```
+TST Test All
+```
+Dan ketika selesai testing, hasil pengujian di Export kedalam bentuk PDF dan HTML adar dapat dilihat lebih rapih di [Report](https://github.com/arrifqiaziz/Final-Project-Katalon-API-Testing/tree/main/Report)
+
 ### Screenshot
 Screenshot Testing hasil testing tidak dimasukan kedalam readme agar rapih\
 Jika ingin melihat screenshot silahkan klik di [Screenshot Testing](https://github.com/arrifqiaziz/Final-Project-Katalon-API-Testing/tree/main/Screenshot)
