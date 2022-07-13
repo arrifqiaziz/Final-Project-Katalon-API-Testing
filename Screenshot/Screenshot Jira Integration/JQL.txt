@@ -1,0 +1,8 @@
+WEB
+project = WP AND creator in (currentUser()) order by created DESC
+
+Mobile
+project = MP AND creator in (currentUser()) order by created DESC
+
+API
+project = AP AND creator in (currentUser()) order by created DESC
