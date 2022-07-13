@@ -15,16 +15,16 @@ Final Project API        : [`Repository DP API`](https://github.com/arrifqiaziz/
 
 # Panduan Penggunaan Aplikasi
 
-### Requirement yang harus disipkan sebelum running aplikasi ini adalah :
+## Requirement yang harus disipkan sebelum running aplikasi ini adalah :
 - Menggunakan `Bahasa Groovy` based `Katalon Studio versi 8.3.5`
 - Testing dilakukan pada End-Point API yang disediakan oleh [`Reqres`](https://reqres.in/)
 - Testing dilaksanakan dengan Website Browser `Google Chrome versi 103.0.5060.114`
 
-### Document Test Plan
+## Document Test Plan
 Sebelum pelaksanaan testing, dibuat dokumen Test Plan dan Test Plan Scenario untuk mendokumentasikan perubahan testing dan pedoman dalam melakukan testing\
 Yang dapat dilihat di [Document Test Plan](https://github.com/arrifqiaziz/Final-Project-Katalon-API-Testing/tree/main/Test%20Plan)
 
-### Ringkasan Hasil Testing
+## Ringkasan Hasil Testing
 Pada pelaksanaan testing dilakukan testing pada `37 Test Case` dengan hasil :
 ```
 37 Passed
@@ -44,7 +44,7 @@ if (Response_Code==404) {
 ```
 Dimana, jika hasil response code adalah 404, akan masuk ke verify response 404, jika tidak akan masuk pada verify response 200
 
-### Report
+## Report
 Pada pengujian, jika harus satu-satu test case di test akan memakan waktu lama, sehingga dibuat `Test Suite` agar dapat menjalankan beberapa test case secara bersamaan yaitu
 ```
 TS Get Resurces
@@ -59,14 +59,14 @@ TST Test All
 ```
 Dan ketika selesai testing, hasil pengujian di Export kedalam bentuk PDF dan HTML adar dapat dilihat lebih rapih di [Report](https://github.com/arrifqiaziz/Final-Project-Katalon-API-Testing/tree/main/Report)
 
-### Screenshot
+## Screenshot
 Screenshot Testing hasil testing tidak dimasukan kedalam readme agar rapih\
 Jika ingin melihat screenshot silahkan klik di [Screenshot Testing](https://github.com/arrifqiaziz/Final-Project-Katalon-API-Testing/tree/main/Screenshot)
 
-## End Point
+# End Point
 Keseluruhan Endpoint pada Reqress diuji pada project ini adalah :
 
-### GET User by Page
+## GET User by Page
 Untuk mendapatkan data user berdasarkan halaman, yang mana pada Reqress disediakan 2 halaman\
 Akan menghasilkan response code `200 OK` dan result user
 ```
@@ -74,7 +74,7 @@ https://reqres.in/api/users?page=1
 https://reqres.in/api/users?page=2
 ```
 
-### GET User by ID
+## GET User by ID
 Untuk mendapatkan data single user berdasarkan ID, yang mana pada Reqress disediakan 12 ID\
 Akan menghasilkan response code `200 OK` dan result user yang dimaksud
 ```
@@ -101,7 +101,7 @@ Akan menghasilkan response code `200 OK` dan result user yang dimaksud dengan je
 https://reqres.in/api/users?page=1&delay=3
 ```
 
-### POST User
+## POST User
 ```
 https://reqres.in/api/users
 ```
@@ -114,7 +114,7 @@ Akan menghasilkan response code `201 CREATED` dan hasil penambahan data
 }
 ```
 
-### PUT User
+## PUT User
 Untuk mengubah data user berdasar id nya semisal mengubah data pada id 7\
 ```
 https://reqres.in/api/users/7
@@ -128,7 +128,7 @@ Akan menghasilkan response code `200 OK` dan hasil perubahan data
 }
 ```
 
-### DELETE User
+## DELETE User
 Untuk mengubah data user berdasar id nya semisal mengubah data pada id 5\
 ```
 https://reqres.in/api/users/5
@@ -159,7 +159,7 @@ Jika request id yang tidak ada maka akan menghasilkan response code `404 NOT FOU
 ```
 https://reqres.in/api/unknown?id=12345
 ```
-### POST Register
+## POST Register
 ```
 https://reqres.in/api/register
 ```
@@ -187,7 +187,7 @@ Result Register Failed\
 }
 ```
 
-### POST Login
+## POST Login
 ```
 https://reqres.in/api/login
 ```
