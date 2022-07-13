@@ -31,7 +31,9 @@ Pada pelaksanaan testing dilakukan testing pada `37 Test Case` dengan hasil :
 0 Failed
 0 Not Executed
 ```
-Sehingga hasil pengujian adalah `100% Passed`\
+Sehingga hasil pengujian adalah `100% Passed`
+
+## IF ELSE Condition
 Pada testing ini juga dimasukan satu test case yang berisi `IF ELSE CONDITION`, yaitu pada `Test Case Get User by ID 12345 Not Found`
 ```
 if (Response_Code==404) {
