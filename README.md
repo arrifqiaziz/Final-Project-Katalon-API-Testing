@@ -20,6 +20,10 @@ Final Project API        : [`Repository DP API`](https://github.com/arrifqiaziz/
 - Testing dilakukan pada End-Point API yang disediakan oleh [`Reqres`](https://reqres.in/)
 - Testing dilaksanakan dengan Website Browser `Google Chrome versi 103.0.5060.114`
 
+### Document Test Plan
+Sebelum pelaksanaan testing, dibuat dokumen Test Plan dan Test Plan Scenario untuk mendokumentasikan perubahan testing dan pedoman dalam melakukan testing\
+Yang dapat dilihat di [Document Test Plan](https://github.com/arrifqiaziz/Final-Project-Katalon-API-Testing/tree/main/Test%20Plan)
+
 ### Ringkasan Hasil Testing
 Pada pelaksanaan testing dilakukan testing pada `37 Test Case` dengan hasil :
 ```
