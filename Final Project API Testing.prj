@@ -7,6 +7,7 @@ creator in (currentUser()) order by created DESC</description>
    <UUID>0806cbf6-5529-4ff4-95af-3a8aa0e93406</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\095053\Documents\Final Project Katalon\Final-Project-Katalon-API-Testing\Final Project API Testing.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
