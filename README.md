@@ -57,7 +57,7 @@ Untuk lebih memudahkan pengujian dibuat `Test Suites Collection` agar dapat menj
 ```
 TST Test All
 ```
-Dan ketika selesai testing, hasil pengujian di Export kedalam bentuk PDF dan HTML adar dapat dilihat lebih rapih di [Report](https://github.com/arrifqiaziz/Final-Project-Katalon-API-Testing/tree/main/Report)
+Dan ketika selesai testing, hasil pengujian di Export kedalam bentuk PDF dan HTML adar dapat dilihat lebih rapih di [Report](https://github.com/arrifqiaziz/Final-Project-Katalon-API-Testing/tree/main/Reports)
 
 ## Screenshot
 Screenshot Testing hasil testing tidak dimasukan kedalam readme agar rapih\
